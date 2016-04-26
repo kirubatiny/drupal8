@@ -4,8 +4,6 @@ status: true
 dependencies:
   config:
     - field.field.node.books.body
-    - field.field.node.books.field_author
-    - field.field.node.books.field_sub_author
     - node.type.books
   module:
     - text
@@ -21,20 +19,6 @@ content:
     weight: 101
     settings: {  }
     third_party_settings: {  }
-  field_author:
-    weight: 102
-    label: above
-    settings:
-      link_to_entity: false
-    third_party_settings: {  }
-    type: string
-  field_sub_author:
-    weight: 103
-    label: above
-    settings:
-      link_to_entity: false
-    third_party_settings: {  }
-    type: string
   links:
     weight: 100
 hidden: {  }
