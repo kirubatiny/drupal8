@@ -1,0 +1,22 @@
+uuid: cc33e221-5830-44e0-9f3a-09fa16a93c1f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.books
+  module:
+    - text
+id: node.books.body
+field_name: body
+entity_type: node
+bundle: books
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary
