@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.node.books.body
     - field.field.node.books.field_author
+    - field.field.node.books.field_sub_author
     - node.type.books
   module:
     - path
@@ -29,6 +30,13 @@ content:
     third_party_settings: {  }
   field_author:
     weight: 32
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+  field_sub_author:
+    weight: 33
     settings:
       size: 60
       placeholder: ''
